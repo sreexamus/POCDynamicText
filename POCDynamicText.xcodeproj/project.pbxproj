@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		788413BE2344F8F500E7D042 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788413BD2344F8F500E7D042 /* SecondViewController.swift */; };
+		788413C12344FD6700E7D042 /* NewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788413C02344FD6700E7D042 /* NewTableViewCell.swift */; };
+		788413C32345011700E7D042 /* NewCollectionCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788413C22345011700E7D042 /* NewCollectionCellCollectionViewCell.swift */; };
 		78A1EBBA2343AE50000E210F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1EBB92343AE50000E210F /* AppDelegate.swift */; };
 		78A1EBBC2343AE50000E210F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1EBBB2343AE50000E210F /* ViewController.swift */; };
 		78A1EBBF2343AE50000E210F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A1EBBD2343AE50000E210F /* Main.storyboard */; };
 		78A1EBC12343AE52000E210F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A1EBC02343AE52000E210F /* Assets.xcassets */; };
 		78A1EBC42343AE52000E210F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A1EBC22343AE52000E210F /* LaunchScreen.storyboard */; };
+		78A1EBCC2343B876000E210F /* TileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78A1EBCB2343B876000E210F /* TileView.xib */; };
+		78A1EBD12343BE82000E210F /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1EBD02343BE82000E210F /* NibLoadable.swift */; };
+		78A1EBD32343C14E000E210F /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1EBD22343C14E000E210F /* TileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		788413BD2344F8F500E7D042 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		788413C02344FD6700E7D042 /* NewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTableViewCell.swift; sourceTree = "<group>"; };
+		788413C22345011700E7D042 /* NewCollectionCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCollectionCellCollectionViewCell.swift; sourceTree = "<group>"; };
 		78A1EBB62343AE50000E210F /* POCDynamicText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POCDynamicText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A1EBB92343AE50000E210F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78A1EBBB2343AE50000E210F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,9 @@
 		78A1EBC02343AE52000E210F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78A1EBC32343AE52000E210F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78A1EBC52343AE52000E210F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78A1EBCB2343B876000E210F /* TileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TileView.xib; sourceTree = "<group>"; };
+		78A1EBD02343BE82000E210F /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		78A1EBD22343C14E000E210F /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +47,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		788413BF2344FD4A00E7D042 /* SecondScreen */ = {
+			isa = PBXGroup;
+			children = (
+				788413BD2344F8F500E7D042 /* SecondViewController.swift */,
+				788413C02344FD6700E7D042 /* NewTableViewCell.swift */,
+				788413C22345011700E7D042 /* NewCollectionCellCollectionViewCell.swift */,
+			);
+			path = SecondScreen;
+			sourceTree = "<group>";
+		};
 		78A1EBAD2343AE50000E210F = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +76,16 @@
 		78A1EBB82343AE50000E210F /* POCDynamicText */ = {
 			isa = PBXGroup;
 			children = (
+				788413BF2344FD4A00E7D042 /* SecondScreen */,
 				78A1EBB92343AE50000E210F /* AppDelegate.swift */,
 				78A1EBBB2343AE50000E210F /* ViewController.swift */,
 				78A1EBBD2343AE50000E210F /* Main.storyboard */,
 				78A1EBC02343AE52000E210F /* Assets.xcassets */,
 				78A1EBC22343AE52000E210F /* LaunchScreen.storyboard */,
 				78A1EBC52343AE52000E210F /* Info.plist */,
+				78A1EBCB2343B876000E210F /* TileView.xib */,
+				78A1EBD02343BE82000E210F /* NibLoadable.swift */,
+				78A1EBD22343C14E000E210F /* TileView.swift */,
 			);
 			path = POCDynamicText;
 			sourceTree = "<group>";
@@ -124,6 +150,7 @@
 			files = (
 				78A1EBC42343AE52000E210F /* LaunchScreen.storyboard in Resources */,
 				78A1EBC12343AE52000E210F /* Assets.xcassets in Resources */,
+				78A1EBCC2343B876000E210F /* TileView.xib in Resources */,
 				78A1EBBF2343AE50000E210F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +162,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				788413C12344FD6700E7D042 /* NewTableViewCell.swift in Sources */,
 				78A1EBBC2343AE50000E210F /* ViewController.swift in Sources */,
+				78A1EBD12343BE82000E210F /* NibLoadable.swift in Sources */,
+				788413C32345011700E7D042 /* NewCollectionCellCollectionViewCell.swift in Sources */,
+				78A1EBD32343C14E000E210F /* TileView.swift in Sources */,
+				788413BE2344F8F500E7D042 /* SecondViewController.swift in Sources */,
 				78A1EBBA2343AE50000E210F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K69MGG379R;
 				INFOPLIST_FILE = POCDynamicText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +336,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K69MGG379R;
 				INFOPLIST_FILE = POCDynamicText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
